@@ -1,7 +1,40 @@
-@import "container";
+
 @import "header";
-@import "nav";
+@import "section";
 @import "main";
 @import "footer";
 
 
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-image: url("../images/imagenFondo1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: scroll;
+
+   
+    
+    display: grid;
+    width: 100vh;
+   height: 50vh;
+   
+    grid-template-areas:"header header header"
+                       
+                         "main main main"
+                         "section section section"
+                         "footer footer footer"    ;
+
+  
+                         
+
+
+
+
+                        
+            
+                }                       
